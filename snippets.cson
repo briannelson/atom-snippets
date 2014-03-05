@@ -1,0 +1,22 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+
+
+# Bootstrap Modal in HAML
+'.text.haml':
+  'Modal':
+    'prefix': 'modal'
+    'body': '.modal#$1 \n\t.modal-dialog \n\t\t.modal-content \n\t\t\t.modal-header \n\t\t\t\t%button.close{data: {dismiss: "modal"}} &times; \n\t\t\t\t%h4.modal-title $2 \n\t\t\t.modal-body \n\t\t\t\t$3'

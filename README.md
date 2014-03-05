@@ -1,4 +1,4 @@
-atom-snippets
+Atom Snippets
 =============
 
-Snippets for Atom text editor
+Snippets for Github's Atom text editor
